@@ -1,0 +1,7 @@
+<h1>Ruby Web Crawler</h1>
+
+<%= form_with(url: "/crawler") do %>
+  <%= label_tag(:url, "URL para scannear:") %>
+  <%= text_field_tag(:url) %>
+  <%= submit_tag("Scan") %>
+<% end %>
