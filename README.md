@@ -1,24 +1,21 @@
-# README
+# RubyCrawler
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Um web-crawler escrito em Ruby on Rails.
+Veja a demosntração em 
 
-Things you may want to cover:
+## Ruby version 
+2.5.3
 
-* Ruby version
+## Rails version
+5.2.4
 
-* System dependencies
+## Configuração
+Clone ou realize o download do código. Dentro da pasta do projeto, execute:
+```console
+$ bundle install
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Execução local
+```console
+$ rails s
+```

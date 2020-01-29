@@ -1,1 +1,8 @@
-<%= @results %>
+<head>
+<%= link_to "Nova Varredura", root_path %>
+</head>
+<main>
+<h3>URL varrida: <%= @results.url %></h3>
+<p>Resultado (em JSON):</p>
+<pre><%= @results.conteudo %></pre>
+</main>
